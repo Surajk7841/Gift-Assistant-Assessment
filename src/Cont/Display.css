@@ -1,0 +1,20 @@
+.display {
+  height: 250px;
+  width: 600px;
+  margin-left: 20%;
+  background-color: aliceblue;
+  border-radius: 50px;
+}
+
+.display p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  font-weight: bold;
+  font-size: larger;
+}
+.display ul {
+  padding-left: 150px;
+  font-size: large;
+}
