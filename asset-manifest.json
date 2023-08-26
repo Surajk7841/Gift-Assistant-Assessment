@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Gift-Assistant-Assessment/static/css/main.aef992f3.css",
+    "main.js": "/Gift-Assistant-Assessment/static/js/main.5bddd9e5.js",
+    "static/js/787.e403dcb9.chunk.js": "/Gift-Assistant-Assessment/static/js/787.e403dcb9.chunk.js",
+    "index.html": "/Gift-Assistant-Assessment/index.html",
+    "main.aef992f3.css.map": "/Gift-Assistant-Assessment/static/css/main.aef992f3.css.map",
+    "main.5bddd9e5.js.map": "/Gift-Assistant-Assessment/static/js/main.5bddd9e5.js.map",
+    "787.e403dcb9.chunk.js.map": "/Gift-Assistant-Assessment/static/js/787.e403dcb9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aef992f3.css",
+    "static/js/main.5bddd9e5.js"
+  ]
+}
