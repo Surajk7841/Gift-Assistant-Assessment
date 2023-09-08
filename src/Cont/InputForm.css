@@ -18,7 +18,7 @@ form {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 40vh;
+  height: 30vh;
 }
 
 form > div {
@@ -46,6 +46,14 @@ button {
   border-radius: 5px;
   color: #fff;
   cursor: pointer;
+}
+
+.msgp {
+  background-color: #ccc;
+  text-align: center;
+  padding: 0;
+  margin: 0px;
+  border-radius: 50px;
 }
 
 .footer {

@@ -11,6 +11,7 @@ function InputForm() {
   });
 
   const [message, setMessage] = useState("");
+  const [msg, setmsg] = useState("");
 
   const handleInputChange = (event) => {
     const { name, value } = event.target;
@@ -19,11 +20,15 @@ function InputForm() {
       [name]: name === "budget" ? parseInt(value) : value,
     }));
   };
+  const msgCont = `you are looking a gift for ${inputValues.relation} on the occasion of 
+${inputValues.occasion} who's interest is in ${inputValues.interest} and
+your budget is ${inputValues.budget} $`;
 
   const handleSubmit = (event) => {
     event.preventDefault();
     console.log(inputValues);
     setMessage("");
+    setmsg(msgCont);
   };
 
   return (
@@ -99,14 +104,8 @@ function InputForm() {
         </div>
         <button type="submit">Submit</button>
       </form>
-      <Display
-        who={inputValues.relation}
-        onwhat={inputValues.occasion}
-        category={inputValues.interest}
-        dollor={inputValues.budget}
-        onSubmit={handleSubmit}
-        message={message}
-      />
+      <p className="msgp">{msg}</p>
+      <Display category={inputValues.interest} message={message} />
       <p className="footer">© 2023 Surajk7841 · All Rights Reserved</p>
     </div>
   );
